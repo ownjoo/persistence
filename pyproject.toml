@@ -27,7 +27,7 @@ all = ["redis>=5.0", "sqlalchemy>=2.0", "tinydb", "boto3>=1.26"]
 dev = ["fakeredis[lua]", "moto[dynamodb,s3]", "oj-toolkit", "pytest", "sqlalchemy>=2.0", "tinydb"]
 
 [project.urls]
-Repository = "https://github.com/ownjoo-org/persistence"
+Repository = "https://github.com/ownjoo/persistence"
 
 [tool.ruff]
 target-version = "py311"
